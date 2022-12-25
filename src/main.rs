@@ -14,7 +14,7 @@ use microbit::{
 };
 
 mod letters;
-use crate::letters::char_to_led;
+use letters::char_to_led;
 mod serial_setup;
 use serial_setup::UartePort;
 
